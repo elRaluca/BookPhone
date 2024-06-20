@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>☎ Phone Book</h1>
+      <div class="input-container">
+        <div class="inputs">
+          <div class="input-name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="input-phone">
+            <label for="phone">Phone:</label>
+            <input type="phone" id="phone" />
+          </div>
+        </div>
+      </div>
+      <div class="add">
+        <button id="add-btn">Add contact</button>
+      </div>
+      <div class="table">
+        <table border="1" id="phone-book-table"></table>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
