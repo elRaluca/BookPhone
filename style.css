@@ -33,7 +33,8 @@
   margin-top: 20px;
 }
 
-#add-btn {
+.add-btn,
+.edit-contact-btn {
   background-color: rgb(225, 65, 174);
   border: none;
   padding: 10px 40px;
@@ -41,7 +42,8 @@
   border-radius: 10px;
 }
 
-#add-btn:hover {
+.add-btn:hover,
+.edit-contact-btn:hover {
   background-color: rgb(172, 65, 225);
 }
 
